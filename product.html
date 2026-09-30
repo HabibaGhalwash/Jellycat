@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  
+  <script src="https://kit.fontawesome.com/b94258e1e9.js" crossorigin="anonymous"></script>
+  
+  
+  <title>Jellycat Navbar</title>
+  <script src="https://kit.fontawesome.com/b94258e1e9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+    <header class="navbar">
+        <div class="logo-section">
+          <div class="left">
+            <input type="text" placeholder="Search our collection..." id="search" />
+          </div>
+          <div class="center">
+            <img src="jellycat_logo_transparent.png" alt="Jellycat Logo" class="logo" />
+         
+        </div>
+          <div class="right">
+            <a href="login.html"><i class="fa-regular fa-user icon"></i></a>
+            <!--<i class="fa-regular fa-heart icon"></i>-->
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping icon"></i></a>
+            <button id="menu-toggle" class="hamburger">&#9776;</button>
+          </div>
+        
+        </div>
+      
+        <nav class="nav-links">
+          <a href="home.html">HOME</a>
+          <a href="#">SHOP</a>
+          <a href="aboutus.html">ABOUT US</a>
+          <a href="Contact.html">CONTACT</a>
+        </nav>
+      </header>
+      
+  <section class="shop-banner">
+    <img src="productpage.jpeg" alt="Banner with plushies" />
+    <div class="shop-text">
+      <h1>Shop</h1>
+      <p>Every Emotion Deserves a Friend — Start Your Journey</p>
+    </div>
+  </section>
+  
+  
+
+  <section class="category-filter">
+    <h2>Shop by categories</h2>
+    <div class="filters">
+      <div class="filter">Filter By</div>
+      <div class="filter">Color <i class="fa-solid fa-chevron-down"></i></div>
+    </div>
+    <div class="color-swatches">
+      <span class="swatch" data-color="blue" style="background:#93bfc3"></span>
+      <span class="swatch" data-color="red" style="background:#dc6966"></span>
+      <span class="swatch" data-color="peach" style="background:#e7cac0"></span>
+      <span class="swatch" data-color="yellow" style="background:#f4e3b2"></span>
+      <span class="swatch" data-color="cream" style="background:#f8f2ee"></span>
+      <span class="swatch" data-color="purple" style="background:#cdc7e5"></span>
+    </div>
+  </section>
+
+  <section class="product-category bg-blue">
+    <h3 id="category-title">Feeling Blue?</h3>
+    <div class="product-grid blue">
+      <div class="product-item blue">
+        <img src="Blue products/bb.png" alt="Berry Bliss">
+        <p>Berry Bliss</p>
+        <span>15$</span>
+        <button class="add-to-cart-btn" data-name="Berry Bliss" data-price="15" data-image="Blue products/bb.png">Add to Cart</button>
+    </div>
+      <div class="product-item blue">
+        <img src="Blue products/pop.png" alt="Bowl of Blues">
+        <p>Bowl of Blues</p>
+        <span>20$</span>
+        <button class="add-to-cart-btn" data-name="Bowl of Blues" data-price="20" data-image="Blue products/pop.png">Add to Cart</button>
+    </div>
+      <div class="product-item blue">
+        <img src="Blue products/ele.png" alt="Gentle Giant">
+        <p>Gentle Giant</p>
+        <span>31$</span>
+        <button class="add-to-cart-btn" data-name="Gentle Giant" data-price="31" data-image="Blue products/ele.png">Add to Cart</button>
+    </div>
+      <div class="product-item blue">
+        <img src="Blue products/whale.png" alt="Waves of Blue">
+        <p>Waves of Blue</p>
+        <span>17$</span>
+        <button class="add-to-cart-btn" data-name="Waves of Blue" data-price="17" data-image="Blue products/whale.png">Add to Cart</button>
+    </div>
+      <div class="product-item blue">
+        <img src="Blue products/bun.png" alt="Soft Sky">
+        <p>Soft Sky</p>
+        <span>10$</span>
+        <button class="add-to-cart-btn" data-name="Soft Sky" data-price="10" data-image="Blue products/bun.png">Add to Cart</button>
+    </div>
+      <div class="product-item blue">
+        <img src="Blue products/octo.png" alt="Octo-Blu">
+        <p>Octo-Blu</p>
+        <span>12$</span>
+        <button class="add-to-cart-btn" data-name="Octo-Blu" data-price="12" data-image="Blue products/octo.png">Add to Cart</button>
+    </div>
+
+
+
+
+      <div class="product-item red hidden">
+        <img src="red products/ca-removebg-preview.png" alt="Birthday Cake">
+        <p>Birthday Cake</p>
+        <span>34$</span>
+        <button class="add-to-cart-btn" data-name="Birthday Cake" data-price="34" data-image="red products/ca-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item red hidden">
+        <img src="red products/chilly-removebg-preview.png" alt="Chilly fun">
+        <p>Chilly Fun</p>
+        <span>10$</span>
+        <button class="add-to-cart-btn" data-name="Chilly Fun" data-price="10" data-image="red products/chilly-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item red hidden">
+        <img src="red products/co-removebg-preview.png" alt="Dragon Fire">
+        <p>Dragon Fire</p>
+        <span>37$</span>
+        <button class="add-to-cart-btn" data-name="Dragon Fire" data-price="37" data-image="red products/co-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item red hidden">
+        <img src="red products/heart-removebg-preview.png" alt="Heart Lock">
+        <p>Heart Lock</p>
+        <span>13$</span>
+        <button class="add-to-cart-btn" data-name="Heart Lock" data-price="13" data-image="red products/heart-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item red hidden">
+        <img src="red products/ok-removebg-preview.png" alt="Octobuddy">
+        <p>Octobuddy</p>
+        <span>39$</span>
+        <button class="add-to-cart-btn" data-name="Octobuddy" data-price="39" data-image="red products/ok-removebg-preview.png" >Add to Cart</button>
+    </div>
+      <div class="product-item red hidden">
+        <img src="red products/p-removebg-preview.png" alt="Pingpong">
+        <p>Pingpong</p>
+        <span>27$</span>
+        <button class="add-to-cart-btn" data-name="Pingpong" data-price="27" data-image="red products/p-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item red hidden">
+        <img src="red products/w-removebg-preview.png" alt="Friend Ball">
+        <p>Friend Ball</p>
+        <span>10$</span>
+        <button class="add-to-cart-btn" data-name="Friend Ball" data-price="10" data-image="red products/w-removebg-preview.png">Add to Cart</button>
+    </div>
+
+
+
+
+
+      <div class="product-item peach hidden">
+        <img src="pink products/pb-removebg-preview.png" alt="Pink Bunny">
+        <p>Pink Bunny</p>
+        <span>47$</span>
+        <button class="add-to-cart-btn" data-name="Pink Bunny" data-price="47" data-image="pink products/pb-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item peach hidden">
+        <img src="pink products/pbu-removebg-preview.png" alt="Butterfly">
+        <p>Butterfly</p>
+        <span>32$</span>
+        <button class="add-to-cart-btn" data-name="Butterfly" data-price="32" data-image="pink products/pbu-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item peach hidden">
+        <img src="pink products/pc-removebg-preview.png" alt="Pink Drago">
+        <p>Pink Drago</p>
+        <span>55$</span>
+        <button class="add-to-cart-btn" data-name="Pink Drago" data-price="55" data-image="pink products/pc-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item peach hidden">
+        <img src="pink products/ps-removebg-preview.png" alt="Seahorse">
+        <p>Seahorse</p>
+        <span>30$</span>
+        <button class="add-to-cart-btn" data-name="Seahorse" data-price="30" data-image="pink products/ps-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item peach hidden">
+        <img src="pink products/pst-removebg-preview.png" alt="Starfish">
+        <p>Starfish</p>
+        <span>34$</span>
+        <button class="add-to-cart-btn" data-name="Starfish" data-price="34" data-image="pink products/pst-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item peach hidden">
+        <img src="pink products/marsh-removebg-preview (1).png" alt="Marshotwin">
+        <p>Marshotwin</p>
+        <span>11$</span>
+        <button class="add-to-cart-btn" data-name="Marshotwin" data-price="11" data-image="pink products/marsh-removebg-preview (1).png" >Add to Cart</button>
+    </div>
+      
+
+
+      <div class="product-item yellow hidden">
+        <img src="Yellow products/yb-removebg-preview.png" alt="Teddy">
+        <p>Teddy</p>
+        <span>23$</span>
+        <button class="add-to-cart-btn" data-name="Teddy" data-price="23" data-image="Yellow products/yb-removebg-preview.png" >Add to Cart</button>
+    </div>
+      <div class="product-item yellow hidden">
+        <img src="Yellow products/ybe-removebg-preview.png" alt="Bees">
+        <p>Bees</p>
+        <span>17$</span>
+        <button class="add-to-cart-btn" data-name="Bees" data-price="17" data-image="Yellow products/ybe-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item yellow hidden">
+        <img src="Yellow products/yd-removebg-preview.png" alt="Daisy Duck">
+        <p>Daisy Duck</p>
+        <span>21$</span>
+        <button class="add-to-cart-btn" data-name="Daisy Duck" data-price="21" data-image="Yellow products/yd-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item yellow hidden">
+        <img src="Yellow products/yg-removebg-preview.png" alt="Giraffe">
+        <p>Giraffe</p>
+        <span>30$</span>
+        <button class="add-to-cart-btn" data-name="Giraffe" data-price="30" data-image="Yellow products/yg-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item yellow hidden">
+        <img src="Yellow products/yk-removebg-preview (1).png" alt="Kango">
+        <p>Kango</p>
+        <span>44$</span>
+        <button class="add-to-cart-btn" data-name="Kango" data-price="44" data-image="Yellow products/yk-removebg-preview (1).png">Add to Cart</button>
+    </div>
+      <div class="product-item yellow hidden">
+        <img src="Yellow products/yl-removebg-preview.png" alt="Lemon Drop">
+        <p>Lemon Drop</p>
+        <span>19$</span>
+        <button class="add-to-cart-btn" data-name="Lemon Drop" data-price="19" data-image="Yellow products/yl-removebg-preview.png">Add to Cart</button>
+    </div>
+
+
+
+
+      <div class="product-item cream hidden">
+        <img src="White product/wa-removebg-preview.png" alt="Bunny Snow">
+        <p>Bunny Snow</p>
+        <span>17$</span>
+        <button class="add-to-cart-btn" data-name="Bunny Snow" data-price="17" data-image="White product/wa-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wc-removebg-preview.png" alt="Fatty Cow">
+        <p>Fatty Cow</p>
+        <span>30$</span>
+        <button class="add-to-cart-btn" data-name="Fatty Cow" data-price="30" data-image="White product/wc-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wcl-removebg-preview.png" alt="Cloud Blanky">
+        <p>Cloud Blanky</p>
+        <span>15$</span>
+        <button class="add-to-cart-btn" data-name="Cloud Blanky" data-price="15" data-image="White product/wcl-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wd-removebg-preview.png" alt="Snow Lamb">
+        <p>Snow Lamb</p>
+        <span>34$</span>
+        <button class="add-to-cart-btn" data-name="Snow Lamb" data-price="34" data-image="White product/wd-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/we-removebg-preview.png" alt="Ping Ball">
+        <p>Ping Ball</p>
+        <span>6$</span>
+        <button class="add-to-cart-btn" data-name="Ping Ball" data-price="6" data-image="White product/we-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wf-removebg-preview.png" alt="Bunny Snow">
+        <p>Bunny Snow</p>
+        <span>32$</span>
+        <button class="add-to-cart-btn" data-name="Bunny Snow" data-price="32" data-image="White product/wf-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wh-removebg-preview.png" alt="Mummy Life">
+        <p>Mummy Life</p>
+        <span>46$</span>
+        <button class="add-to-cart-btn" data-name="Mummy Life" data-price="46" data-image="White product/wh-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wk-removebg-preview.png" alt="Rabbit">
+        <p>Rabbit</p>
+        <span>26$</span>
+        <button class="add-to-cart-btn" data-name="Rabbit" data-price="26" data-image="White product/wk-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wm-removebg-preview.png" alt="Unicorn fun">
+        <p>Unicorn fun</p>
+        <span>48$</span>
+        <button class="add-to-cart-btn" data-name="Unicorn fun" data-price="48" data-image="White product/wm-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wq-removebg-preview.png" alt="Uni pony">
+        <p>Uni pony</p>
+        <span>31$</span>
+        <button class="add-to-cart-btn" data-name="Uni pony" data-price="31" data-image="White product/wq-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wr-removebg-preview.png" alt="Duckling duckies">
+        <p>Duckling duckies</p>
+        <span>40$</span>
+        <button class="add-to-cart-btn" data-name="Duckling duckies" data-price="40" data-image="White product/wr-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item cream hidden">
+        <img src="White product/wt-removebg-preview.png" alt="Owl Night">
+        <p>Owl Night</p>
+        <span>18$</span>
+        <button class="add-to-cart-btn" data-name="Owl Night" data-price="18" data-image="White product/wt-removebg-preview.png">Add to Cart</button>
+    </div>
+
+
+
+
+
+      <div class="product-item purple hidden">
+        <img src="Purple Product/pa-removebg-preview.png" alt="Purple fly">
+        <p>Purple fly</p>
+        <span>35$</span>
+        <button class="add-to-cart-btn" data-name="Purple fly" data-price="35" data-image="Purple Product/pa-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item purple hidden">
+        <img src="Purple Product/pb-removebg-preview.png" alt="Octopus">
+        <p>Octopus</p>
+        <span>15$</span>
+        <button class="add-to-cart-btn" data-name="Octopus" data-price="15" data-image="Purple Product/pb-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item purple hidden"><img src="Purple Product/pc-removebg-preview.png" alt="Hippo">
+        <p>Hippo</p>
+        <span>43$</span>
+            <button class="add-to-cart-btn" data-name="Hippo" data-price="43" data-image="Purple Product/pc-removebg-preview.png">Add to Cart</button>
+        </div>
+      <div class="product-item purple hidden"><img src="Purple Product/pf-removebg-preview.png" alt="Drago Violet">
+        <p>Drago Violet</p>
+        <span>48$</span>
+        <button class="add-to-cart-btn" data-name="Drago Violet" data-price="48" data-image="Purple Product/pf-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item purple hidden"><img src="Purple Product/pd-removebg-preview.png" alt="Vio Bunny">
+        <p>Vio Bunny</p>
+        <span>30$</span>
+        <button class="add-to-cart-btn" data-name="Vio Bunny" data-price="30" data-image="Purple Product/pd-removebg-preview.png">Add to Cart</button>
+    </div>
+      <div class="product-item purple hidden"><img src="Purple Product/pe-removebg-preview.png" alt="Squid Pop">
+        <p>Squid Pop</p>
+        <span>39$</span>
+        <button class="add-to-cart-btn" data-name="Squid Pop" data-price="39" data-image="Purple Product/pe-removebg-preview.png">Add to Cart</button>
+    </div>
+
+    </div>
+   
+  </section>
+  <section class="best-sellers">
+    <h3 class="best-title">Our Best Sellers!</h3>
+    <div class="best-seller-grid">
+      <div class="seller-item">
+        <img src="best seller.jpeg" alt="Snowy">
+        <p>Snowy</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <button class="add-to-cart-btn" data-name="Snowy" data-price="20"  data-image="best seller.jpeg">Add to Cart</button>
+      </div>
+      <div class="seller-item">
+        <img src="best seller2.jpeg" alt="Fiery Finn">
+        <p>Fiery Finn</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <button class="add-to-cart-btn" data-name="Fiery Finn" data-price="28" data-image="best seller2.jpeg">Add to Cart</button>
+      </div>
+      <div class="seller-item">
+        <img src="bestseller3.jpeg" alt="Greenfire">
+        <p>Greenfire</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <button class="add-to-cart-btn" data-name="Greenfire" data-price="33" data-image="bestseller3.jpeg">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="support-section">
+    <h2>Need a Little Extra Support?</h2>
+    <p>
+      Along with our comforting companions, Jellycat offers a special feature where you can connect with a licensed therapist.
+      Whether you're exploring your emotions or seeking guidance, our therapists are here to help you understand and process your feelings.
+      Because sometimes, a friend and a listening ear make all the difference.
+    </p>
+    <a href="Contact.html" class="support-btn">Check Out</a>
+  </section>
+  
+  
+  <div class="page-container">
+    
+
+    <footer class="footer">
+      <div class="newsletter">
+        <h2>Sign up to our newsletter to get 20% off your first order!</h2>
+        <div class="subscribe">
+          <input type="email" placeholder="Your email" />
+          <button>Subscribe</button>
+        </div>
+        <div class="socials">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <h3>Shop</h3>
+          <ul>
+            <li>Shop All</li>
+            <li>By Color</li>
+            <li>By Feeling</li>
+            <li>New Arrivals</li>
+            <li>Latest Collection</li>
+            <li>Gift Card</li>
+            <li>Top Sellers</li>
+          </ul>
+        </div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Our Creations</li>
+            <li>Testimonials</li>
+            <li>Journal</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Account</h3>
+          <ul>
+            <li>Faqs</li>
+            <li>Shipping</li>
+            <li>Returns</li>
+            <li>Terms</li>
+            <li>Contact Us</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</div>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  });
+    document.addEventListener("DOMContentLoaded", () => {
+  const swatches = document.querySelectorAll(".swatch");
+  const productItems = document.querySelectorAll(".product-item");
+  const productSection = document.querySelector(".product-category");
+  const categoryTitle = document.getElementById("category-title");
+
+  const titles = {
+    blue: "Feeling Blue?",
+    red: "Seeing Red?",
+    peach: "Soft in Peach?",
+    yellow: "Bright in Yellow?",
+    cream: "Warm in Cream?",
+    purple: "Peaceful in Purple?"
+  };
+
+  swatches.forEach(swatch => {
+    swatch.addEventListener("click", () => {
+      const color = swatch.getAttribute("data-color");
+
+      // Change background
+      productSection.className = `product-category bg-${color}`;
+
+      // Change title
+      categoryTitle.textContent = titles[color] || "Shop";
+
+      // Toggle product visibility
+      productItems.forEach(item => {
+        const match = item.classList.contains(color);
+        item.classList.toggle("hidden", !match);
+      });
+    });
+  });
+});
+//Add to cart
+document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".add-to-cart-btn");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        const name = button.dataset.name;
+        const price = parseFloat(button.dataset.price);
+        const image = button.dataset.image;
+        let cart = JSON.parse(localStorage.getItem("cart") || "[]");
+
+        const existing = cart.find(item => item.name === name);
+        if (existing) {
+          existing.qty += 1;
+        } else {
+          cart.push({ name, price, image, qty: 1 });
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+        window.location.href = "cart.html"; // Navigate directly to cart
+      });
+    });
+  });;
+
+  </script>
+</body>
+</html>

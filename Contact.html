@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us -JellyCats</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="contactus">
+    <header class="navbar">
+        <div class="logo-section">
+          <div class="left">
+            <input type="text" placeholder="Search our collection..." id="search" />
+          </div>
+          <div class="center">
+            <img src="jellycat_logo_transparent.png" alt="Jellycat Logo" class="logo" />
+         
+        </div>
+          <div class="right">
+            <a href="login.html"><i class="fa-regular fa-user icon"></i></a>
+            <!--<i class="fa-regular fa-heart icon"></i>--> 
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping icon"></i></a>
+            <button id="menu-toggle" class="hamburger">&#9776;</button>
+          </div>
+        
+        </div>
+      
+        <nav class="nav-links">
+          <a href="home.html">HOME</a>
+          <a href="product.html">SHOP</a>
+          <a href="aboutus.html">ABOUT US</a>
+          <a href="#">CONTACT</a>
+        </nav>
+      </header>
+  <main class="contact-page">
+    <section class="intro">
+      <h1>Contact Us – Jellycat</h1>
+      <p>At Jellycat, we believe everyone deserves a comforting friend who understands them. Whether you’re looking for a cuddle companion to match your mood, need help with your order, or want to learn more about our mission, we’d love to connect with you!</p>
+    </section>
+  
+    <section class="contact-section">
+      <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <p>We’d love to hear from you! Whether you have questions, feedback, or just want to share your JellyCats, we’re here to help.</p>
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> <a href="mailto:support@jellycat.com">support@jellycat.com</a></p>
+        <p><strong>Phone:</strong> +1 212 555 4567</p>
+        <p><strong>Address:</strong> 123 Heartfelt Lane, Comfort City, CA 90210</p>
+        <h3>Follow Us:</h3>
+        <p>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </p>
+      </div>
+  
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email address" required>
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  
+    <section class="thank-you-note">
+      <p>Thank you for bringing warmth and comfort into your world with Jellycat! We're here to help make every feeling a little softer.</p>
+    </section>
+  </main>
+
+        <div class="page-container">
+    
+
+          <footer class="footer">
+            <div class="newsletter">
+              <h2>Sign up to our newsletter to get 20% off your first order!</h2>
+              <div class="subscribe">
+                <input type="email" placeholder="Your email" />
+                <button>Subscribe</button>
+              </div>
+              <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+      
+            <div class="footer-links">
+              <div>
+                <h3>Shop</h3>
+                <ul>
+                  <li>Shop All</li>
+                  <li>By Color</li>
+                  <li>By Feeling</li>
+                  <li>New Arrivals</li>
+                  <li>Latest Collection</li>
+                  <li>Gift Card</li>
+                  <li>Top Sellers</li>
+                </ul>
+              </div>
+              <div>
+                <h3>About</h3>
+                <ul>
+                  <li>About Us</li>
+                  <li>Our Creations</li>
+                  <li>Testimonials</li>
+                  <li>Journal</li>
+                  <li>Careers</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Account</h3>
+                <ul>
+                    <li>Faqs</li>
+                    <li>Shipping</li>
+                    <li>Returns</li>
+                    <li>Terms</li>
+                    <li>Contact Us</li>
+                    <li>Privacy</li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+        </div>
+                 
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  });
+  </script>
+  </body>
+  </html>
+
+

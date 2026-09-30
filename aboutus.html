@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us – Jellycat</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo-section">
+          <div class="left">
+            <input type="text" placeholder="Search our collection..." id="search" />
+          </div>
+          <div class="center">
+            <img src="jellycat_logo_transparent.png" alt="Jellycat Logo" class="logo" />
+         
+        </div>
+          <div class="right">
+            <a href="login.html"><i class="fa-regular fa-user icon"></i></a>
+            <!--<i class="fa-regular fa-heart icon"></i>--> 
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping icon"></i></a>
+            <button id="menu-toggle" class="hamburger">&#9776;</button>
+          </div>
+        
+        </div>
+      
+        <nav class="nav-links">
+          <a href="home.html">HOME</a>
+          <a href="product.html">SHOP</a>
+          <a href="#">ABOUT US</a>
+          <a href="Contact.html">CONTACT</a>
+        </nav>
+      </header>
+  <section class="about-header">
+      <h1>About Us</h1>
+      <p>Bringing Comfort, One Colorful Friend at a Time</p>
+  </section>
+
+  <section class="about-content">
+      <div class="about-image">
+          <img src="family.jpg" alt="Colorful stuffed bunnies">
+      </div>
+      <div class="about-text">
+          <h2>Our Mission</h2>
+          <h3>Bringing Comfort<br>Through Color</h3>
+          <p>
+              At Jellycat, we believe that emotions deserve to be seen and embraced.<br>
+              Our mission is to create comforting companions that reflect how you feel,<br>
+              helping you connect with your emotions in a fun, gentle way. Each stuffed animal<br>
+              is color-coded to mirror a unique feeling, offering a friend who understands,<br>
+              no matter what kind of day you're having.
+          </p>
+      </div>
+  </section>
+  <section class="story-section">
+    <div class="story-text">
+        <h2>Our Story</h2>
+        <h3>Jellycat began with a simple idea: everyone deserves a friend who understands.</h3>
+        <p>  Inspired by the power of colors to reflect emotions, we created a collection of stuffed animals designed to bring comfort and connection.<br>
+            Each color matches a unique feeling—like calm blues, joyful yellows, and warm pinks—making it easy to find a companion that resonates with you.<br>
+            Today, Fluffies is more than just a store; it's a place where emotions are seen, shared, and supported. We’re grateful to be part of your journey, one color at a time.
+        </p>
+    </div>
+    <div class="story-image">
+        <img src="crosblue.jpg" alt="Color-coded stuffed toys">
+    </div>
+</section>
+    <section class="why-section">
+        <div class="why-container">
+          <div class="why-image">
+            <img src="yel.jpg" alt="Fluffy toys arranged on yellow background">
+          </div>
+          <div class="why-text">
+            <h2>Why We Do It</h2>
+            <h3>Because You Deserve<br>To Be Seen</h3>
+            <p>
+              We started Jellycat with a simple goal: to give people of all ages a comforting companion who "gets" them.<br>
+              We’re passionate about creating toys that go beyond comfort and provide genuine connection.<br>
+              Whether it’s a gift for someone special or a personal pick-me-up, our animals are here to remind you
+              that your feelings matter and that you’re never alone.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+  
+<div class="page-container">
+    
+
+    <footer class="footer">
+      <div class="newsletter">
+        <h2>Sign up to our newsletter to get 20% off your first order!</h2>
+        <div class="subscribe">
+          <input type="email" placeholder="Your email" />
+          <button>Subscribe</button>
+        </div>
+        <div class="socials">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <h3>Shop</h3>
+          <ul>
+            <li>Shop All</li>
+            <li>By Color</li>
+            <li>By Feeling</li>
+            <li>New Arrivals</li>
+            <li>Latest Collection</li>
+            <li>Gift Card</li>
+            <li>Top Sellers</li>
+          </ul>
+        </div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Our Creations</li>
+            <li>Testimonials</li>
+            <li>Journal</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Account</h3>
+          <ul>
+            <li>Faqs</li>
+            <li>Shipping</li>
+            <li>Returns</li>
+            <li>Terms</li>
+            <li>Contact Us</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  });
+</script>
+</body>
+</html>
+  
+
+
+
