@@ -78,3 +78,51 @@ The main JavaScript files are:
 updated_cart_js/
 ├── cart.js
 └── product.js
+## 🎨 Design Concept
+
+The website was designed around the idea of connecting plush toys with emotions, colors, and comfort.
+
+The visual design uses:
+
+- Soft and playful colors
+- Color-based product organization
+- Large product imagery
+- Friendly design elements
+- Simple navigation
+- Clear shopping interactions
+- Playful visual sections
+
+The overall design aims to create a warm, colorful, and enjoyable browsing experience.
+
+## 🎯 Project Goals
+
+The main goals of this project were to:
+
+- Design a complete e-commerce frontend
+- Practice frontend web development
+- Create an engaging product browsing experience
+- Implement interactive shopping cart functionality
+- Organize products into themed collections
+- Develop multiple interconnected website pages
+- Apply UI/UX principles to an e-commerce interface
+- Create a consistent visual identity throughout the website
+
+## 💡 What I Learned
+
+Through this project, I gained practical experience in:
+
+- Structuring multi-page websites using HTML
+- Creating custom layouts with CSS
+- Adding dynamic functionality using JavaScript
+- Building shopping cart interactions
+- Organizing product assets and collections
+- Designing an e-commerce user experience
+- Creating consistent visual branding
+- Connecting multiple pages into a complete website flow
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/HabibaGhalwash/Jellycat.git
