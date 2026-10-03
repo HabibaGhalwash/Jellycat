@@ -78,6 +78,7 @@ The main JavaScript files are:
 updated_cart_js/
 ├── cart.js
 └── product.js
+```
 ## 🎨 Design Concept
 
 The website was designed around the idea of connecting plush toys with emotions, colors, and comfort.
